@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6; /* Couleur de fond plus claire */
+}
+
+header {
+    background-color: #333; /* Couleur foncée pour le header */
+    color: #fff;
+    text-align: center;
+    padding: 2em; /* Augmentez le padding pour plus d'espace */
+}
+
+nav {
+    background-color: #555; /* Couleur de fond plus foncée pour la nav */
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Ajoutez une transition au survol */
+}
+
+nav a:hover {
+    background-color: #777; /* Couleur au survol */
+}
+
+section {
+    padding: 30px; /* Augmentez le padding pour plus d'espace dans les sections */
+    text-align: center;
+}
+
+footer {
+    background-color: #444; /* Couleur foncée pour le footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ajoutez du style au formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #555; /* Couleur de texte plus foncée pour les labels */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc; /* Ajoutez une bordure */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+input[type="submit"] {
+    background-color: #333; /* Couleur foncée pour le bouton */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 0.7em 1em;
+    transition: background-color 0.3s ease; /* Transition au survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Couleur foncée au survol */
+}
